@@ -3,14 +3,18 @@
   "version": "0.0.0",
   "type": "module",
   "main": "./index.mjs",
-  "bin": "./cli.mjs",
   "scripts": {
     "build": "cp node_modules/client/assets/ai.mjs ./index.mjs",
     "test": "echo true"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/aifn-run/client.git"
+  },
+  "author": {
+    "name": "Darlan Alves",
+    "email": "me@darlanalv.es"
   },
   "publishConfig": {
     "access": "public"
