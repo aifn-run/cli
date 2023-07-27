@@ -1,4 +1,6 @@
 # @aifn/client
 
-[ai.fn()](https://aifn.run) in Node
+AI functions in Node.JS
+
+See docs and examples at [https://aifn.run](https://aifn.run)
 
