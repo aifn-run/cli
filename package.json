@@ -4,8 +4,8 @@
   "type": "module",
   "main": "./index.mjs",
   "scripts": {
-    "build": "cp node_modules/client/server/assets/ai.mjs ./index.mjs",
-    "test": "echo true"
+    "build": "ls node_modules/client/* && cp node_modules/client/server/assets/ai.mjs ./index.mjs",
+    "test": "node index.mjs"
   },
   "license": "MIT",
   "repository": {
