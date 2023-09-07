@@ -20,7 +20,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
+  "devDependencies": {
     "client": "aifn-run/aifn-run"
   }
 }
