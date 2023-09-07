@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "main": "./index.mjs",
+  "bin": "./cli.mjs",
   "scripts": {
     "build": "ls node_modules/client/* && cp node_modules/client/server/assets/ai.mjs ./index.mjs && node ./index.mjs",
     "test": "echo true"
